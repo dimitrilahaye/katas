@@ -1,5 +1,9 @@
-describe('abc', () => {
-    it('cbd', () => {
-        expect(1).toBe(1);
+import {answer} from "../../src/trading-card-game";
+
+describe('Trading card game kata', () => {
+    describe('#answer', () => {
+        it('should return 42', () => {
+            expect(answer()).toBe(42);
+        });
     });
 });
